@@ -10,3 +10,4 @@ Team Member :
 5. Agung Sutiyo Sudrajad - 3202116098
 6. Akmal Muhammad Ridho - 3202116099
    
+Link Trello : https://trello.com/b/hjEZKDsI/kelompok-4-5b
