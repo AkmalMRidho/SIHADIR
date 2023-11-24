@@ -1,0 +1,301 @@
+/* bagian beranda admin,dosen,mahasiswa */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgb(165, 9, 9), black);
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.beranda {
+  display: flex;
+  min-height: 100vh;
+}
+
+.body {
+  position: fixed;
+}
+
+.beranda .body nav {
+  display: flex;
+  height: 10%;
+  padding: 16px;
+  margin-bottom: 1rem;
+}
+
+.beranda .body nav a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar-brand {
+  width: 90px;
+}
+
+.fa-bars {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.dashboard {
+  padding: 16px;
+  width: 75%;
+}
+
+.data-dashboard {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  background-color: white;
+}
+
+.detail {
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.detail > p {
+  margin: 1rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.detail .dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.rotate-icon {
+  transform: rotate(180deg);
+}
+
+.detail .dropdown p {
+  font-size: 1.5rem;
+}
+
+.panel p {
+  margin-bottom: 1rem;
+}
+
+.panel p:nth-child(-n + 2) {
+  font-size: 1.2rem;
+}
+
+.panel p:nth-child(3) {
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: 0.2rem 3rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+
+}
+
+.content {
+  transition: 0.5s ease;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  padding: 16px;
+  color: white;
+}
+
+.center {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.admin {
+  height: calc(100vh - 10vh);
+  padding-top: 5rem;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #200606;
+  margin-right: 17rem;
+}
+
+.admin1 {
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-size: 25px;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #200606;
+}
+.admin2 {
+  height: calc(100vh - 10vh);
+  padding-top: 10rem;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+  color: #fff;
+  background-color: #200606;
+  margin-right: 17rem;
+  font-size: 1.5rem;
+}
+
+.row1 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.colum1,
+.colum2 {
+  flex-grow: 2;
+}
+
+.colum3 {
+  flex-grow: 8;
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.input-width {
+  width: 100%;
+  padding: 5px 12px;
+  background-color: #d9d9d9;
+}
+
+.semester,
+.kk,
+.period {
+  margin-bottom: 16px;
+}
+
+.semester select,
+.kk select,
+.period select {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+}
+
+.red-btn {
+  font-size: 16px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff;
+  border: none;
+  background-color: #630404;
+  padding: 10px 24px;
+}
+
+.stat-btn {
+  text-align: center;
+}
+
+.tabel {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 8px;
+}
+
+tbody tr:nth-child(2n + 1) {
+  background-color: #4d1616;
+}
+
+tr:nth-child(even) {
+  background-color: #820f0f;
+}
+
+.admin > p {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+}
+
+.polnep {
+  background-color: #d3d3d3;
+  padding: 40px;
+  margin-top: 0.1rem;
+  text-align: center;
+}
+
+#hamburger {
+  display: none;
+  
+}
+.btn1 {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
+
+}
+
+.btn2 {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  margin-left: 2rem;
+  font-size: 1rem;
+}

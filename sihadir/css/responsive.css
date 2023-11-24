@@ -1,0 +1,163 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .body {
+    width: 270px;
+    min-height: 100vh;
+    margin-left: -17rem;
+    transition: 0.5s ease;
+  }
+
+  .navbar-brand {
+    width: 70px;
+  }
+
+  .beranda .body nav a {
+    font-size: 2rem;
+    gap: 2rem;
+  }
+
+  .dashboard {
+    padding: 16px;
+    width: 90%;
+  }
+
+  .show-sidebar {
+    margin-left: 0;
+  }
+
+  .container {
+    gap: 1rem;
+  }
+
+  .move-content {
+    transform: translateX(17rem);
+  }
+
+  .content {
+    margin-left: 0;
+    width: 100vw;
+  }
+
+  .admin1 {
+    width: 100%;
+  }
+
+  .center {
+    font-size: 1.5rem;
+  }
+
+  .beranda {
+    overflow-x: hidden;
+  }
+
+  #hamburger {
+    display: inline;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .body {
+    width: 265px;
+    min-height: 100vh;
+    margin-left: -17rem;
+    transition: 0.5s ease;
+  }
+
+  .show-sidebar {
+    margin-left: 0;
+  }
+
+  .move-content {
+    transform: translateX(16.5rem);
+  }
+
+  .container {
+    gap: 1rem;
+  }
+
+  .content {
+    min-width: 100vw;
+    margin-left: 0;
+  }
+
+  .beranda .body nav a {
+    gap: 1rem;
+  }
+
+  .beranda {
+    overflow-x: hidden;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .body {
+    width: 244px;
+    min-height: 100vh;
+    margin-left: 0;
+  }
+
+  .content {
+    margin-left: 244px;
+    width: calc(100vw - 245px);
+  }
+
+  .admin1 {
+    width: inherit;
+  }
+
+  .title {
+    width: inherit;
+  }
+
+  .move-content {
+    transform: translateX(0);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .body {
+    width: 285px;
+    min-height: 100vh;
+    margin-left: 0;
+  }
+
+  .beranda .body nav a {
+    gap: 2rem;
+  }
+
+  .content {
+    margin-left: 285px;
+  }
+
+  .admin1 {
+    width: calc(100vw - 285px);
+  }
+
+  .container {
+    gap: 3rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .body {
+    width: 285px;
+    margin-left: 0;
+  }
+
+  .beranda .body nav a {
+    gap: 2rem;
+  }
+
+  .content {
+    margin-left: 285px;
+    width: calc(100vw - 300px);
+  }
+
+  .container {
+    gap: 6rem;
+  }
+}
