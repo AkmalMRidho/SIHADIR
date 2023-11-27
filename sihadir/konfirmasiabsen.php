@@ -120,58 +120,79 @@ if (isset($_SESSION["username"])) {
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>123456789</td>
-                    <td>Lorem.</td>
-                    <td>06.55</td>
+                    <td>Akmal M Ridho</td>
+                    <td>Hadir</td>
+                    <td>07.15</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                   <tr>
                     <td>2</td>
-                    <td>123456789</td>
-                    <td>Lorem</td>
-                    <td>06.55</td>
+                    <td>Firza Febrian</td>
+                    <td>Ijin</td>
+                    <td>06.50</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                   <tr>
                     <td>3</td>
-                    <td>123456789</td>
-                    <td>Lorem</td>
-                    <td>06.55</td>
+                    <td>Ahmad Hayyunaji</td>
+                    <td>Sakit</td>
+                    <td>07.00</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>123456789</td>
-                    <td>Lorem</td>
-                    <td>06.55</td>
+                    <td>Ridho F</td>
+                    <td>Alpha</td>
+                    <td>07.25</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                   <tr>
                     <td>5</td>
-                    <td>123456789</td>
-                    <td>Lorem</td>
-                    <td>06.55</td>
+                    <td>Hafiz al qadri</td>
+                    <td>Hadir</td>
+                    <td>07.10</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                   <tr>
                     <td>6</td>
-                    <td>123456789</td>
-                    <td>Lorem</td>
-                    <td>06.55</td>
+                    <td>Agung Sutiyo</td>
+                    <td>IJin</td>
+                    <td>06.50</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>123456789</td>
-                    <td>Lorem</td>
+                    <td>Elfa Cahya J</td>
+                    <td>Hadir</td>
                     <td>06.55</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                   <tr>
                     <td>8</td>
-                    <td>123456789</td>
-                    <td>Lorem</td>
-                    <td>06.55</td>
+                    <td>Sany Adika</td>
+                    <td>Sakit</td>
+                    <td>06.59</td>
+                    <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Vendy Paulus</td>
+                    <td>Hadir</td>
+                    <td>07.15</td>
+                    <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Fitri Ambarwati</td>
+                    <td>Hadir</td>
+                    <td>06.45</td>
+                    <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Raka Maulana</td>
+                    <td>ALpha</td>
+                    <td>07.30</td>
                     <td> <button class="btn1">TERIMA</button>  <button class="btn2">TOLAK</button></td>
                   </tr>
                 </tbody>
